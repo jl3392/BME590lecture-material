@@ -1,0 +1,9 @@
+lecture03
+intro to python
+def great(name):
+    #body of your function
+    print(type(name))
+    if(type(name) != str):
+        print('not a string')
+    else:
+       print(name)
